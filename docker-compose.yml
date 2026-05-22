@@ -13,7 +13,7 @@ services:
   backend:
     build: ./backend
     ports:
-      - "5000:5000"
+      - "5001:5000"
     environment:
       - MONGO_URI=mongodb://mongo:27017/contacts
     depends_on:
